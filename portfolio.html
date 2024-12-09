@@ -10,8 +10,9 @@
     <!-- Site Title -->
     <title>Palani Soundar D | Personal Portfolio</title>
 
-    <link rel="apple-touch-icon" href="assets/img/favicon.png" />
-    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="./assets/img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/img/favicon.png" />
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/animate.min.css" />
@@ -24,14 +25,22 @@
     <link rel="stylesheet" href="assets/css/swiper.min.css" />
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
     <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/venobox.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main-2.css" />
+    <link rel="stylesheet" href="assets/css/main-3.css" />
+    <link rel="stylesheet" href="assets/css/gerold-core.css" />
     <link rel="stylesheet" href="assets/css/light-mode.css" />
     <link rel="stylesheet" href="assets/css/meanmenu.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/responsive-2.css" />
+    <link rel="stylesheet" href="assets/css/responsive-3.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
-<body>
+<body class="absolute_header">
+
     <!-- Preloader Area Start -->
     <div class="preloader">
         <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
@@ -146,148 +155,115 @@
     <!-- HEADER END -->
 
     <main class="site-content" id="content">
-        <!-- HERO SECTION START -->
-        <section class="hero-section d-flex align-items-center" id="intro">
-            <div class="intro_text">
-                <svg viewBox="0 0 1320 300">
-                    <text x="50%" Y="50%" text-anchor="middle">HI</text>
-                </svg>
-            </div>
+
+        <!-- START: Breadcrumb Area -->
+        <section class="breadcrumb_area" data-bg-image="./assets/img/breadcrumb/breadcrumb-bg.jpg"
+            data-bg-color="#140C1C">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="hero-content-box">
-                            <span class="hero-sub-title">I am Palani Soundar</span>
-                            <h1 class="hero-title"> UI Designer &<br> Developer.</h1>
-
-                            <div class="hero-image-box d-md-none text-center">
-                                <img src="assets/img/hero/me.png" alt="" />
-                            </div>
-
-                            <p class="lead">
-                                Passionate and skilled UI Developer with 1 year of experience in creating user-friendly
-                                and visually
-                                appealing interfaces. Proficient in building innovative, responsive web applications and
-                                collaborating
-                                with cross-functional teams. Eager to apply technical expertise to deliver seamless and
-                                engaging user
-                                experiences.
-                            </p>
-                            <div class="button-box d-flex flex-wrap align-items-center">
-                                <ul class="ul-reset social-icons">
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/palani-soundar-d-a3976a247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa fa-linkedin-in"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/palanisoundard"><i class="fa fa-github"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-none d-md-block">
-                        <div class="hero-image-box text-center">
-                            <img src="assets/img/hero/me.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div class="funfact-area">
-                    <div class="row">
-                        <div class="col-6 d-flex justify-content-center">
-                            <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
-                                <div class="number"><span class="odometer" data-count="1">0</span>+</div>
-                                <div class="text">Year of <br />Experience</div>
-                            </div>
-                        </div>
-                        <div class="col-6 d-flex justify-content-center">
-                            <div class="funfact-item d-flex flex-column flex-sm-row flex-wrap align-items-center">
-                                <div class="number"><span class="odometer" data-count="5">0</span>+</div>
-                                <div class="text">Project <br />Completed</div>
+                <div class="row">
+                    <div class="col">
+                        <div class="breadcrumb_content d-flex flex-column align-items-center">
+                            <h2 class="title wow fadeInUp" data-wow-delay=".3s">Portfolio</h2>
+                            <div class="breadcrumb_navigation wow fadeInUp" data-wow-delay=".5s">
+                                <span><a href="index.html">Home</a></span>
+                                <i class="fa fa-long-arrow-right"></i>
+                                <span class="current-item">Portfolio</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- HERO SECTION END -->
+        <!-- END: Breadcrumb Area -->
 
-
-        <!-- PORTFOLIO SECTION START -->
-        <section class="portfolio-section" id="works-section">
+        <!-- start: Portfolio Area -->
+        <section class="tj-portfolio-section style-8">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-header text-center">
-                            <h2 class="section-title wow fadeInUp" data-wow-delay=".3s">My Recent Works</h2>
-                            <p class="wow fadeInUp" data-wow-delay=".4s">
-                                I put your ideas and thus your wishes in the form of a unique web project that inspires
-                                you and you customers.
-                            </p>
-                        </div>
+                    <div class="section-header style-5 text-center">
+                        <span class="subtitle wow fadeInUp" data-wow-delay=".3s">Behind the Pixels</span>
+                        <h2 class="title tj-text-invert">Recent works</h2>
                     </div>
                 </div>
-
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="portfolio-filter text-center wow fadeInUp" data-wow-delay=".5s">
-                            <div class="button-group filter-button-group">
-                                <button data-filter="*" class="active">All</button>
-                                <button data-filter=".lpage">Landing Pages</button>
-                                <button data-filter=".apage">Admin Pages</button>
-                                <div class="active-bg"></div>
-                            </div>
-                        </div>
-
-                        <div class="portfolio-box wow fadeInUp" data-wow-delay=".6s">
-                            <div class="portfolio-sizer"></div>
-                            <div class="gutter-sizer"></div>
-                            <button></button>
-                            <div class="portfolio-item lpage">
-                                <div class="image-box">
-                                    <img src="assets/img/portfolio/2.png" alt="" />
+                    <div class="col-12">
+                        <div class="portfolio-wrapper-8">
+                            <div class="portfolio-tem style-8">
+                                <div class="portfolio-8-images wow zoomIn" data-tilt>
+                                    <a class="modal-popup" href="#portfolio-wrapper"><img
+                                            src="assets/img/portfolio/2.png" alt="Images"></a>
                                 </div>
-                                <div class="content-box">
-                                    <h3 class="portfolio-title">KNCCI</h3>
-                                    <p>Kancheepuram Nippon Chamber of Commerce & Industry.</p>
-                                    <i class="fa fa-chevron-right"></i>
-                                    <button data-mfp-src="#portfolio-wrapper"
-                                        class="portfolio-link modal-popup"></button>
+                                <div class="portfolio-content wow fadeInUp" data-wow-delay=".3s">
+                                    <span class="number">01.</span>
+                                    <h2 class="title"><a class="modal-popup" href="#portfolio-wrapper">KNCCI</a></h2>
+                                    <div class="desc">
+                                        <p>Kancheepuram Nippon Chamber of Commerce & Industry.</p>
+                                    </div>
+                                    <a class="arrow_link modal-popup" href="#portfolio-wrapper">
+                                        <span class="icon_box">
+                                            <i class="icon_first fa fa-arrow-right"></i>
+                                            <i class="icon_second fa fa-arrow-right"></i>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="portfolio-item lpage">
-                                <div class="image-box">
-                                    <img src="assets/img/portfolio/1.png" alt="" />
+                            <div class="portfolio-tem style-8">
+                                <div class="portfolio-8-images wow zoomIn" data-tilt>
+                                    <a class="modal-popup" href="#portfolio-wrapper1"><img
+                                            src="assets/img/portfolio/1.png" alt="Images"></a>
                                 </div>
-                                <div class="content-box">
-                                    <h3 class="portfolio-title">Bosstro</h3>
-                                    <p>Bosstro Tailored CRM</p>
-                                    <i class="fa fa-chevron-right"></i>
-                                    <button data-mfp-src="#portfolio-wrapper1"
-                                        class="portfolio-link modal-popup"></button>
-                                </div>
-                            </div>
-                            <div class="portfolio-item apage">
-                                <div class="image-box">
-                                    <img src="assets/img/portfolio/4.png" alt="" />
-                                </div>
-                                <div class="content-box">
-                                    <h3 class="portfolio-title">Bosstro CRM Admin Login</h3>
-                                    <p>Bosstro Tailored CRM Admin Login</p>
-                                    <i class="fa fa-chevron-right"></i>
-                                    <button data-mfp-src="#portfolio-wrapper3"
-                                        class="portfolio-link modal-popup"></button>
+                                <div class="portfolio-content wow fadeInUp" data-wow-delay=".4s">
+                                    <span class="number">02.</span>
+                                    <h2 class="title"><a class="modal-popup" href="#portfolio-wrapper1">Bosstrp CRM</a>
+                                    </h2>
+                                    <div class="desc">
+                                        <p>Bosstro Tailored CRM</p>
+                                    </div>
+                                    <a class="arrow_link modal-popup" href="#portfolio-wrapper1">
+                                        <span class="icon_box">
+                                            <i class="icon_first fa fa-arrow-right"></i>
+                                            <i class="icon_second fa fa-arrow-right"></i>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="portfolio-item apage">
-                                <div class="image-box">
-                                    <img src="assets/img/portfolio/3.png" alt="" />
+                            <div class="portfolio-tem style-8 mt-5">
+                                <div class="portfolio-8-images wow zoomIn" data-tilt>
+                                    <a class="modal-popup" href="#portfolio-wrapper3"><img
+                                            src="assets/img/portfolio/4.png" alt="Images"></a>
                                 </div>
-                                <div class="content-box">
-                                    <h3 class="portfolio-title">Internal Task Managment</h3>
-                                    <p>Internal Task Management for tracking the employees working time</p>
-                                    <i class="fa fa-chevron-right"></i>
-                                    <button data-mfp-src="#portfolio-wrapper2"
-                                        class="portfolio-link modal-popup"></button>
+                                <div class="portfolio-content wow fadeInUp" data-wow-delay=".5s">
+                                    <span class="number">03.</span>
+                                    <h2 class="title"><a class="modal-popup" href="#portfolio-wrapper3">Bosstro CRM
+                                            Admin Login</a></h2>
+                                    <div class="desc">
+                                        <p>Bosstro Tailored CRM Admin Login</p>
+                                    </div>
+                                    <a class="arrow_link modal-popup" href="#portfolio-wrapper3">
+                                        <span class="icon_box">
+                                            <i class="icon_first fa fa-arrow-right"></i>
+                                            <i class="icon_second fa fa-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-tem style-8 mt-5">
+                                <div class="portfolio-8-images wow zoomIn" data-tilt>
+                                    <a class="modal-popup" href="#portfolio-wrapper2"><img
+                                            src="assets/img/portfolio/3.png" alt="Images"></a>
+                                </div>
+                                <div class="portfolio-content wow fadeInUp" data-wow-delay=".5s">
+                                    <span class="number">03.</span>
+                                    <h2 class="title"><a class="modal-popup" href="#portfolio-wrapper2">Internal Task Managment</a></h2>
+                                    <div class="desc">
+                                        <p>Internal Task Management for tracking the employees working time</p>
+                                    </div>
+                                    <a class="arrow_link modal-popup" href="#portfolio-wrapper2">
+                                        <span class="icon_box">
+                                            <i class="icon_first fa fa-arrow-right"></i>
+                                            <i class="icon_second fa fa-arrow-right"></i>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -295,7 +271,7 @@
                 </div>
             </div>
         </section>
-        <!-- PORTFOLIO SECTION END -->
+        <!-- end: Portfolio Area -->
 
         <!-- start: Portfolio Popup -->
         <div id="portfolio-wrapper" class="popup_content_area zoom-anim-dialog mfp-hide" data-lenis-prevent>
@@ -308,11 +284,12 @@
                         <h2 class="title">KNCCI</h2>
                         <div class="desc">
                             <p>
-                                KNCCI was established as non-profit industry chamber in 22nd January 2014 with a 
+                                KNCCI was established as non-profit industry chamber in 22nd January 2014 with a
                                 purpose of enabling growth of industries from small scale to large ones in Tamil Nadu.
                             </p>
                         </div>
-                        <a href="https://kncci.in/" target="_blank" class="btn tj-btn-primary">live preview <i class="fa fa-arrow-right"></i></a>
+                        <a href="https://kncci.in/" target="_blank" class="btn tj-btn-primary">live preview <i
+                                class="fa fa-arrow-right"></i></a>
                     </div>
                     <div class="portfolio_info_items">
                         <div class="info_item">
@@ -351,8 +328,10 @@
                     <h2 class="title">Project Overview</h2>
                     <div class="desc">
                         <p>
-                            I was tasked with designing a high-converting landing page for KNCCI, aimed at promoting KNCCI Product. The primary goal of this project was to create a visually compelling, 
-                            user-friendly design that would drive conversions and capture leads through a clean, intuitive interface.
+                            I was tasked with designing a high-converting landing page for KNCCI, aimed at promoting
+                            KNCCI Product. The primary goal of this project was to create a visually compelling,
+                            user-friendly design that would drive conversions and capture leads through a clean,
+                            intuitive interface.
                         </p>
                     </div>
                 </div>
@@ -364,11 +343,12 @@
                         <div class="story_content">
                             <p>
                                 <strong>Balancing aesthetics with functionality: </strong>
-                                The challenge was to create a visually appealing design while ensuring it was intuitive and easy to navigate.
+                                The challenge was to create a visually appealing design while ensuring it was intuitive
+                                and easy to navigate.
                             </p>
                             <p>
                                 <strong>Conversion optimization: </strong>
-                                It was important to design an engaging layout that encouraged user 
+                                It was important to design an engaging layout that encouraged user
                                 interaction without overwhelming the visitor.
                             </p>
                         </div>
@@ -379,24 +359,24 @@
                         </div>
                         <div class="approach_content">
                             <p>
-                             <strong>User-Centered Design:</strong>   
-                              I conducted user research and created wireframes to identify pain points and ensure the 
-                              design would resonate with the target audience.
+                                <strong>User-Centered Design:</strong>
+                                I conducted user research and created wireframes to identify pain points and ensure the
+                                design would resonate with the target audience.
                             </p>
                             <p>
-                             <strong>Visual Design:</strong>   
-                             The page was designed with a bold color palette and clear typography to 
-                             enhance readability and focus attention on the core message.
+                                <strong>Visual Design:</strong>
+                                The page was designed with a bold color palette and clear typography to
+                                enhance readability and focus attention on the core message.
                         </div>
                     </div>
                 </div>
                 <div class="portfolio_navigation bg-white">
-                   
+
                 </div>
             </div>
         </div>
         <!-- end: Portfolio Popup -->
-        
+
         <!-- start: Portfolio1 Popup -->
         <div id="portfolio-wrapper1" class="popup_content_area zoom-anim-dialog mfp-hide" data-lenis-prevent>
             <div class="popup_modal_img">
@@ -408,11 +388,13 @@
                         <h2 class="title">Bosstro CRM</h2>
                         <div class="desc">
                             <p>
-                                Elevate operations with our intuitive Dashboard, transforming data into actionable insights with dynamic charts. Harmoniously manage targets, 
-                                events, and schedules with the Calendar Dashboard, integrating with Google Calendar. 
+                                Elevate operations with our intuitive Dashboard, transforming data into actionable
+                                insights with dynamic charts. Harmoniously manage targets,
+                                events, and schedules with the Calendar Dashboard, integrating with Google Calendar.
                             </p>
                         </div>
-                        <a href="https://bosstro.com/" target="_blank" class="btn tj-btn-primary">live preview <i class="fa fa-arrow-right"></i></a>
+                        <a href="https://bosstro.com/" target="_blank" class="btn tj-btn-primary">live preview <i
+                                class="fa fa-arrow-right"></i></a>
                     </div>
                     <div class="portfolio_info_items">
                         <div class="info_item">
@@ -451,8 +433,11 @@
                     <h2 class="title">Project Overview</h2>
                     <div class="desc">
                         <p>
-                            I was tasked with designing a high-converting landing page for Bosstro CRM, aimed at promoting CRM Salesforce Product. The primary goal of this project was to create a visually compelling, 
-                            user-friendly design that would drive conversions and capture leads through a clean, intuitive interface.
+                            I was tasked with designing a high-converting landing page for Bosstro CRM, aimed at
+                            promoting CRM Salesforce Product. The primary goal of this project was to create a visually
+                            compelling,
+                            user-friendly design that would drive conversions and capture leads through a clean,
+                            intuitive interface.
                         </p>
                     </div>
                 </div>
@@ -464,11 +449,12 @@
                         <div class="story_content">
                             <p>
                                 <strong>Balancing aesthetics with functionality: </strong>
-                                The challenge was to create a visually appealing design while ensuring it was intuitive and easy to navigate.
+                                The challenge was to create a visually appealing design while ensuring it was intuitive
+                                and easy to navigate.
                             </p>
                             <p>
                                 <strong>Conversion optimization: </strong>
-                                It was important to design an engaging layout that encouraged user 
+                                It was important to design an engaging layout that encouraged user
                                 interaction without overwhelming the visitor.
                             </p>
                         </div>
@@ -479,19 +465,19 @@
                         </div>
                         <div class="approach_content">
                             <p>
-                             <strong>User-Centered Design:</strong>   
-                              I conducted user research and created wireframes to identify pain points and ensure the 
-                              design would resonate with the target audience.
+                                <strong>User-Centered Design:</strong>
+                                I conducted user research and created wireframes to identify pain points and ensure the
+                                design would resonate with the target audience.
                             </p>
                             <p>
-                             <strong>Visual Design:</strong>   
-                             The page was designed with a bold color palette and clear typography to 
-                             enhance readability and focus attention on the core message.
+                                <strong>Visual Design:</strong>
+                                The page was designed with a bold color palette and clear typography to
+                                enhance readability and focus attention on the core message.
                         </div>
                     </div>
                 </div>
                 <div class="portfolio_navigation bg-white">
-                   
+
                 </div>
             </div>
         </div>
@@ -604,10 +590,11 @@
                         <h2 class="title">Bosstro Crm Admin Login</h2>
                         <div class="desc">
                             <p>
-                                This is a internal Product called Bosstro Crm using for the CRM Salesforce 
+                                This is a internal Product called Bosstro Crm using for the CRM Salesforce
                             </p>
                         </div>
-                        <a href="https://bosstro.com/bcrm/Login" target="_blank" class="btn tj-btn-primary">live preview <i class="fa fa-arrow-right"></i></a>
+                        <a href="https://bosstro.com/bcrm/Login" target="_blank" class="btn tj-btn-primary">live preview
+                            <i class="fa fa-arrow-right"></i></a>
                     </div>
                     <div class="portfolio_info_items">
                         <div class="info_item">
@@ -646,8 +633,10 @@
                     <h2 class="title">Project Overview</h2>
                     <div class="desc">
                         <p>
-                            I was tasked with designing a high-converting Admin page for Bosstro CRM, aimed at promoting CRM Salesforce. The primary goal of this project was to create a visually compelling, 
-                            user-friendly design that would drive conversions and capture leads through a clean, intuitive interface.
+                            I was tasked with designing a high-converting Admin page for Bosstro CRM, aimed at promoting
+                            CRM Salesforce. The primary goal of this project was to create a visually compelling,
+                            user-friendly design that would drive conversions and capture leads through a clean,
+                            intuitive interface.
                         </p>
                     </div>
                 </div>
@@ -659,11 +648,12 @@
                         <div class="story_content">
                             <p>
                                 <strong>Balancing aesthetics with functionality: </strong>
-                                The challenge was to create a visually appealing design while ensuring it was intuitive and easy to navigate.
+                                The challenge was to create a visually appealing design while ensuring it was intuitive
+                                and easy to navigate.
                             </p>
                             <p>
                                 <strong>Conversion optimization: </strong>
-                                It was important to design an engaging layout that encouraged user 
+                                It was important to design an engaging layout that encouraged user
                                 interaction without overwhelming the visitor.
                             </p>
                         </div>
@@ -674,79 +664,24 @@
                         </div>
                         <div class="approach_content">
                             <p>
-                             <strong>User-Centered Design:</strong>   
-                              I conducted user research and created wireframes to identify pain points and ensure the 
-                              design would resonate with the target audience.
+                                <strong>User-Centered Design:</strong>
+                                I conducted user research and created wireframes to identify pain points and ensure the
+                                design would resonate with the target audience.
                             </p>
                             <p>
-                             <strong>Visual Design:</strong>   
-                             The page was designed with a bold color palette and clear typography to 
-                             enhance readability and focus attention on the core message.
+                                <strong>Visual Design:</strong>
+                                The page was designed with a bold color palette and clear typography to
+                                enhance readability and focus attention on the core message.
                         </div>
                     </div>
                 </div>
                 <div class="portfolio_navigation bg-white">
-                   
+
                 </div>
             </div>
         </div>
         <!-- end: Portfolio Popup -->
 
-        <!-- CONTACT SECTION START -->
-        <section class="contact-section" id="contact-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-7 order-2 order-md-1">
-                        <div class="contact-form-box wow fadeInLeft" data-wow-delay=".3s">
-                            <div class="section-header">
-                                <h2 class="section-title">Let’s work together!</h2>
-                                <p>I design and code beautifully simple things and i love what i do. Just simple like
-                                    that!</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 offset-lg-1 col-md-5 d-flex flex-wrap align-items-center order-1 order-md-2">
-                        <div class="contact-info-list">
-                            <ul class="ul-reset">
-                                <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
-                                    data-wow-delay=".4s">
-                                    <div class="icon-box">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="text-box">
-                                        <p>Phone</p>
-                                        <a href="tel:+917397268540">+91 7397268540</a>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
-                                    data-wow-delay=".5s">
-                                    <div class="icon-box">
-                                        <i class="fa fa-envelope"></i>
-                                    </div>
-                                    <div class="text-box">
-                                        <p>Email</p>
-                                        <a href="mailto:ssoundar364@gmail.com">ssoundar364@gmail.com</a>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
-                                    data-wow-delay=".6s">
-                                    <div class="icon-box">
-                                        <i class="fa fa-map"></i>
-                                    </div>
-                                    <div class="text-box">
-                                        <p>Address</p>
-                                        <a href="#">Chennai , Tamil Nadu<br />India</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- CONTACT SECTION END -->
     </main>
 
     <!-- FOOTER AREA START -->
@@ -767,7 +702,8 @@
                         </nav>
                     </div>
                     <div class="copy-text">
-                        <p>&copy; <span id="getYear"></span> All rights reserved by <a href="#" target="_blank">PalaniSoundar</a></p>
+                        <p>&copy; <span id="getYear"></span> All rights reserved by <a href="#"
+                                target="_blank">PalaniSoundar</a></p>
                     </div>
                 </div>
             </div>
@@ -775,7 +711,7 @@
     </footer>
     <!-- FOOTER AREA END -->
 
-    <!-- JSS here -->
+    <!-- JS here -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
@@ -788,6 +724,7 @@
     <script src="assets/js/nice-select.min.js"></script>
     <script src="assets/js/backToTop.js"></script>
     <script src="assets/js/appear.min.js"></script>
+    <script src="assets/js/sticky.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/lightcase.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
@@ -796,8 +733,10 @@
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/odometer.min.js"></script>
     <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/vanilla-tilt.min.js"></script>
     <script src="assets/js/validate.min.js"></script>
     <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/venobox.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
